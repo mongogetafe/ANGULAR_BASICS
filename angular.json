@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "basicosangular"
+  "defaultProject": "basicosangular",
+  "cli": {
+    "analytics": "bf0e2375-524c-4458-b348-dcab5ecdfed8"
+  }
 }
