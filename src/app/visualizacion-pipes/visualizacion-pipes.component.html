@@ -1,0 +1,10 @@
+<h1>Ejemplo de pipe de Angular</h1>
+<hr>
+<h2>Pipe Date</h2>
+<p>Fecha sin pipe: {{fecha}}</p>
+<p>Fecha con pipe date: {{fecha | date: "dd/MM/yyyy hh:mm"}}</p>
+<p>Fecha con pipe date y valores texto: {{fecha | date: "long"}}</p>
+<hr>
+<h2>Pipe propio</h2>
+<p>Importe sin pipe: {{importe}}</p>
+<p>Importe con pipe numero: {{importe | numero: 4: moneda}}</p>
